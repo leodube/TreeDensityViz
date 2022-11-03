@@ -3,7 +3,7 @@
 const { build } = require("esbuild");
 const { dependencies } = require("./package.json");
 
-const entryFile = "src/index.tsx";
+const entryFile = "src/index.ts";
 const shared = {
   bundle: true,
   entryPoints: [entryFile],
