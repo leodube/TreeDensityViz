@@ -84,6 +84,7 @@ export class TreeGrid {
    */
   #generateGrid(): void {
     let center: Pt = this.#bound.center;
+    console.log(this.#spacing);
 
     // Find distance between trees using stems-per-hectare and convert to pixels
     let xInc: number = (100 / Math.sqrt(this.#stemsHA)) * this.#pixelsPerMeter;
