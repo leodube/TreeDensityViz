@@ -1,0 +1,17 @@
+version: '3.7'
+name: 'tree-density-viz'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - 'data:/app'
+      - 'node_modules:/app/node_modules'
+    ports:
+      - 6001:6006
+
+volumes:
+  data:
+  node_modules:
