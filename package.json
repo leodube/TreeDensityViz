@@ -10,10 +10,7 @@
     "clean": "rimraf dist",
     "start": "yarn storybook",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "docker-start": "docker compose start",
-    "docker-stop": "docker compose stop",
-    "docker-up": "docker compose up -d --build"
+    "build-storybook": "build-storybook"
   },
   "author": "",
   "license": "ISC",
